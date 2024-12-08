@@ -141,3 +141,71 @@ body {
     align-items: center;
     justify-content: space-around;
 }
+
+/* General styles for smaller screens */
+@media (max-width: 768px) {
+    #hero-section {
+        padding: 50px 0;
+    }
+
+    .activity-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .activities {
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 80%;
+    }
+
+    .tour-section {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .tour-img {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .guide-wrapper {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Styles for very small screens */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    h3 {
+        font-size: 1em;
+    }
+
+    h4 {
+        font-size: 0.9em;
+    }
+
+    p {
+        font-size: 0.8em;
+    }
+
+    .activities-img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .tour-img {
+        width: 100%;
+        height: auto;
+    }
+}
