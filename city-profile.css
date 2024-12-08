@@ -1,0 +1,143 @@
+@font-face {
+    font-family: "NotoSans";
+    src: url(images/NotoSans-VariableFont_wdth\,wght.ttf);
+
+}
+
+@font-face {
+    font-family: "NotoSansJP";
+    src: url(images/NotoSansJP-VariableFont_wght.ttf);
+}
+
+.jp-txt{
+    font-family: "NotoSansJP";
+}
+
+h1, h2, h3, h4, p{
+  
+    text-shadow: 0px 0px 2px black;
+}
+
+h3, h4, p{
+    color: #1D3557;
+    text-shadow: 0px 0px 1px #1D3557;
+}
+
+h4{
+    margin-bottom: 5px;
+}
+
+p{
+    margin-top: 0px;
+}
+
+a{
+    color: inherit;
+    text-decoration: underline;
+}
+
+a:hover{
+    color: orange;
+}
+
+.util{
+    border-style: dotted;
+    border-width: 2px;
+    border-color: pink;
+}
+
+body {
+    font-family: "NotoSans";
+
+
+    margin: 0;
+    padding-bottom: 200px;
+}
+
+#hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-image: url(images/japan-hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+
+
+    color: white;
+}
+
+
+
+#activities-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: #F1FAEE;
+    padding-bottom: 20px;
+   
+}
+
+.activity-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.activities{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 100%;
+
+}
+
+.activities-img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.tour-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    width: 600px;
+    margin: 0 auto;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    background-color: #A8DADC;
+
+    border-radius: 12px;
+
+    border-bottom-width: 10px;
+    border-bottom-color: #1D3557;
+    border-bottom-style: solid;
+}
+
+.tour-img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+
+
+    margin-right: 25px;
+}
+
+.guide-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    text-align: justify;
+    align-items: center;
+    justify-content: space-around;
+}
